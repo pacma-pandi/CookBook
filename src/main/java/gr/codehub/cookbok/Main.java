@@ -101,7 +101,7 @@ public class Main {
 
         Set<Ingredient> allUniqueIngredients = new HashSet<>(allIngredients);
         System.out.println("\nThe book recipes use " + allUniqueIngredients.size() + " unique ingredients (with quantities)");
-        for (Ingredient ingredient : allIngredients)
+        for (Ingredient ingredient : allUniqueIngredients)
             System.out.println("Unique ingredient = " + ingredient.getName() + ", " + ingredient.getQuantity());
 
         Set<String> allIngredientTypes = new HashSet<>();
