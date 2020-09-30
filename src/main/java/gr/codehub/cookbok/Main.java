@@ -114,13 +114,13 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("\n==== TESTING COOK BOOK ====");
+        System.out.println("\n===== TESTING COOK BOOK =====");
         testCookBook();
 
-        System.out.println("\n==== TESTING RECIPE WORDS ====");
+        System.out.println("\n===== TESTING RECIPE WORDS =====");
         testRecipeWords();
 
-        System.out.println("\n==== TESTING READ FILE ====");
+        System.out.println("\n===== TESTING READ FILE =====");
         testReadFile();
     }
 
